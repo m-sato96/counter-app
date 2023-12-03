@@ -1,5 +1,5 @@
 <script setup lang="ts">
-const { counter, updateCounter } = useCounter();
+const { counter } = useCounter();
 </script>
 <template>
   <div>
