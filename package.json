@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare",
     "lint:js": "eslint --ext \".ts,.vue\" --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
+    "type-check": "tsc --noEmit",
     "lint": "npm run lint:js && npm run lint:prettier",
     "prepare": "husky install"
   },
@@ -25,6 +26,7 @@
     "prettier": "^3.1.0",
     "typescript": "^5.3.2",
     "vue": "^3.3.7",
-    "vue-router": "^4.2.5"
+    "vue-router": "^4.2.5",
+    "vue-tsc": "^1.8.24"
   }
 }
