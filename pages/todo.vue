@@ -23,7 +23,7 @@ const clearTask = () => {
     <h2>Todoアプリ</h2>
     <hr />
     <form @submit.prevent="addTask">
-      <input type="text" v-model="newTask" />
+      <input v-model="newTask" type="text" />
       <button>Add</button>
     </form>
     <ul>
