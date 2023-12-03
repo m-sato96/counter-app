@@ -10,6 +10,7 @@
     "postinstall": "nuxt prepare",
     "lint:js": "eslint --ext \".ts,.vue\" --ignore-path .gitignore .",
     "lint:prettier": "prettier --check .",
+    "type-check": "tsc --noEmit",
     "lint": "npm run lint:js && npm run lint:prettier",
     "prepare": "husky install"
   },
